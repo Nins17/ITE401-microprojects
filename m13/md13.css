@@ -1,0 +1,85 @@
+body, h1, form, fieldset {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-image:linear-gradient(rgba(0, 175, 250, 0.192),rgba(95, 149, 196, 0.429)), url(bgs/9cd8d1c017f9e1afb4b3baea4e322b24.jpg);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+form {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 15px;
+    border:5px solid rgb(100, 184, 237);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+}
+
+fieldset {
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+}
+
+legend {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+label {
+    margin-right: 10px;
+    font-size: 1em;
+    color: #333;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+input[type="submit"] {
+    background-color: #00d0ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #2a8ec8;
+}
+input.submit{
+    margin-left: 40%;
+    width: 20%;
+}
+.survey-question {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.survey-question label {
+    display: inline-block;
+    margin-right: 5px;
+}
